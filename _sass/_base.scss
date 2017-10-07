@@ -15,13 +15,6 @@ body {
     font-family: $base-font-family;
     text-align: justify;
     color: $text-color;
-    text-rendering: optimizeLegibility;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
 
     background: #070000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #070000, #303d4f, #070000);  /* Chrome 10-25, Safari 5.1-6 */
