@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.woff?84vh7n') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-user:before {
+  content: "\f007";
+}
+.icon-tag:before {
+  content: "\f02b";
+}
+.icon-tags:before {
+  content: "\f02c";
+}
+.icon-exclamation-circle:before {
+  content: "\f06a";
+}
+.icon-exclamation-triangle:before {
+  content: "\f071";
+}
+.icon-warning:before {
+  content: "\f071";
+}
+.icon-comment:before {
+  content: "\f075";
+}
+.icon-folder:before {
+  content: "\f07b";
+}
+.icon-folder-open:before {
+  content: "\f07c";
+}
+.icon-twitter-square:before {
+  content: "\f081";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-comments:before {
+  content: "\f086";
+}
+.icon-linkedin-square:before {
+  content: "\f08c";
+}
+.icon-github-square:before {
+  content: "\f092";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-feed:before {
+  content: "\f09e";
+}
+.icon-rss:before {
+  content: "\f09e";
+}
+.icon-floppy-o:before {
+  content: "\f0c7";
+}
+.icon-save:before {
+  content: "\f0c7";
+}
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+.icon-folder-o:before {
+  content: "\f114";
+}
+.icon-folder-open-o:before {
+  content: "\f115";
+}
+.icon-rss-square:before {
+  content: "\f143";
+}
+.icon-reddit:before {
+  content: "\f1a1";
+}
+.icon-facebook-official:before {
+  content: "\f230";
+}
+.icon-reddit-alien:before {
+  content: "\f281";
+}
