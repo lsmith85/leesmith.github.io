@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Lee Smith's Blog
+title: Blog
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+<h1 class="page-title">{{page.title}}</h1>
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<article class="posts">{% for post in site.posts %}
+    <div class="postdate">{{post.day}}<br>{{post.month}}<br>{{post.year}}</div>
+    <a class="float" href="{{post.url}}" title="{{post.title}}"><h2>{{post.title}}</h2></a>
+    <div>{{post.excerpt}}</div>
+{% endfor %}
+</article>
