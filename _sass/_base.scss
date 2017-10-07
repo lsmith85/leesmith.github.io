@@ -1,0 +1,126 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-weight: $base-font-weight;
+    font-size: $base-font-size;
+    font-family: $base-font-family;
+    text-align: justify;
+    color: $text-color;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+
+    background: #070000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #070000, #303d4f, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #070000, #303d4f, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+     @include media-query($on-palm) {
+           font-size: $base-font-size * 0.8;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: 1.5rem;
+}
+
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+/**
+ * Links
+ */
+a {
+    color: $font1;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($font1, 15%);
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: $font2;
+    }
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 6px solid $font1;
+    padding-left: $spacing-unit / 2;
+    font-style: italic;
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+pre {
+    overflow: auto;
+}
+
+
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
