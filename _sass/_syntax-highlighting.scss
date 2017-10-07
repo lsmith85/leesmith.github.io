@@ -1,0 +1,60 @@
+figure.highlight {
+    border-radius: 1rem;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+
+    font-size: $small-font-size;
+    margin: 2em auto;
+    box-shadow: 0.5em 0.5em 1em #000000;
+
+     @include media-query($on-palm) {
+           font-size: $small-font-size * 0.8;
+    }
+
+    pre {
+        background-color: #293134;
+        color: #aaaaaa;
+        padding: 0rem 0.6rem 0rem 0rem;
+        border: 0px;
+        margin: 0px;
+        border-radius: 4px;
+
+        td {
+            padding: 0px;
+        }
+        td.code {
+            padding-left: 0.5rem;
+        }
+            
+    }
+}
+
+code pre.lineno {
+    background-color: #000000;
+    border-radius: 4px;
+    padding-left: 0.6rem;
+}
+.tsql {
+    .kw {
+        color: #15a8ff;
+        font-weight: bold;
+    }
+    .cm {
+        color: #008000;
+    }
+    .op {
+        color: #969696;
+    }
+    .st {
+        color: #ff8204;
+    }
+    .fn {
+        color: #ae6ff4;
+    }
+    .n {
+        color: #008080;
+    }
+}
+/* system table         color: #00f400;
+    sql stored proc     color: #e6e600;
+    standard text       color: #008080;
+*/
