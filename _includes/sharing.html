@@ -1,0 +1,31 @@
+<h3 class="share-header">Share:</h3>
+<div class="share social"> 
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
+          <i class="icon-facebook share-button"></i>
+        </a>
+       
+        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+          <i class="icon-twitter share-button"></i>
+        </a>
+       
+        <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
+          <i class="icon-google-plus share-button"></i>
+        </a>
+       
+        <a href="http://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" >
+          <i class="icon-reddit-alien share-button"></i>
+        </a>
+        
+       <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source=test" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
+           <i class="icon-linkedin share-button"></i>
+        </a>
+                                 
+        <a href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}">
+            <i class="icon-envelope share-button"></i>
+        </a> 
+</div>
