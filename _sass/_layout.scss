@@ -286,6 +286,20 @@ table.table-main, .tsql {
     clear: both;
 }
 
+.scrolltop {
+    position: fixed;
+    background-color: $font2;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    
+    &:hover {
+        color: $font1;
+    }
+}
+
 %clearfix {
 
     &:after {
