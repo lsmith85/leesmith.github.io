@@ -1,0 +1,114 @@
+---
+layout: post
+title: "Post With Time"
+date: 2020-06-05T11:30:00
+year: 2020
+month: Jun
+day: 05
+---
+
+<p>This is the <b>start</b> of something special</p>
+<p>Soon more will be added to this site. Please take a look at this sample of a webpage. I includes a number of elements which are used to illustrate what a final page will look like once this is live.</p>
+
+{% highlight ruby %}
+def show
+	@widget = Widget(params[:id])
+	responsd_to do
+
+end
+{% endhighlight %}
+
+<figure class="highlight"><pre><code class="tsql"><table style="border-spacing: 0"><tbody><tr><td style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9</pre></td><td class="code"><pre><span class="kw">SELECT </span><span class="op">*</span><span class="op">,</span> <span class="cm">-- Need all columns
+</span><span class="n"> </span><span class="n">      </span><span class="fn">CONVERT</span><span class="op">(</span><span class="kw">varchar</span><span class="op">(</span><span class="n">11</span><span class="op">)</span><span class="op">,</span> <span class="fn">CURRENT_TIMESTAMP</span><span class="op">,</span> <span class="n">106</span><span class="op">)</span> <span class="kw">AS </span><span class="n">[Date] </span><span class="cm">--Test with no space
+</span><span class="kw">FROM </span><span class="n">  </span><span class="n">dbo</span><span class="op">.</span><span class="n">TableName </span><span class="cm">/* This
+is a very important
+multi line comment */
+</span><span class="kw">WHERE </span><span class="n"> </span><span class="n">Field </span><span class="op">= </span><span class="st">N'Value'
+</span><span class="n"> </span><span class="n">      </span><span class="op">AND </span><span class="n">[Field2] </span><span class="op">NOT </span><span class="op">IN </span><span class="op">(</span><span class="st">'BigValue'</span><span class="op">,</span> <span class="st">'SmallValue'</span><span class="op">)
+</span><span class="n"> </span><span class="n">      </span><span class="op">AND </span><span class="n">Id </span><span class="op">IN </span><span class="op">(</span><span class="n">1</span><span class="op">,</span><span class="n">2</span><span class="op">,</span><span class="n">3</span><span class="op">)
+</span><span class="n"> </span><span class="n">      </span><span class="op">AND </span><span class="n">FKID </span><span class="op">IN </span><span class="op">(</span><span class="n">1</span><span class="op">,</span> <span class="n">2</span><span class="op">,</span> <span class="n">3</span><span class="op">)</span><span class="n">; </span></pre></td></tr></tbody></table></code></pre></figure>
+<div>
+	<blockquote>This is a test to see how the blockquote looks.</blockquote>
+</div>
+<!--excerpt-end-->
+<pre>
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+Duplicate text to make a long page.
+</pre>
+<table class="table-main">
+	<tr>
+		<th>Model</th>
+		<th>Cores</th>
+		<th>Est. TPC-E System Score</th>
+		<th>Score/Physical Core</th>
+		<th>License Cost</th>
+	</tr>
+	<tr>
+		<td>Xeon E5-2687W v4</td>
+		<td>24</td>
+		<td>3,673.00</td>
+		<td>153.04</td>
+		<td>$44,592.00</td>
+	</tr>
+		<tr>
+		<td>Xeon E5-2643 v4</td>
+		<td class="cen">12</td>
+		<td class="cen">2,081.36</td>
+		<td class="cen">173.44</td>
+		<td class="cen">$22,296.00</td>
+	</tr>
+</table>
