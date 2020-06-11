@@ -1,7 +1,7 @@
 title: Test Theme
 permalink: /blog/:year/:month/:title
 excerpt_separator: <!--excerpt-end-->
-futre: false
+future: false
 
 sass:
     style: compressed
